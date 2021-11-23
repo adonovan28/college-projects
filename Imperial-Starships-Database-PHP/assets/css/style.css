@@ -1,0 +1,148 @@
+* {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+#mainPageDesc {
+  background-color: #323232;
+  font-size: 25px;
+  padding: 30px;
+  margin: 20px;
+  text-align: center;
+}
+
+#deletePageConfirm {
+  background-color: #323232;
+  font-size: 25px;
+  padding: 30px;
+  margin: 20px;
+}
+
+.logo {
+  padding-bottom: 10px;
+}
+
+.logo img {
+  width: 100px;
+}
+
+body {
+  background-color: #000;
+}
+
+header {
+  background-color: #222222;
+  width: 220px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+h1 {
+  font-size: 50px;
+  color: #fff;
+  padding: 10px;
+  margin: 5px 20px;
+  border-bottom: 3px solid #fff;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+
+[role="link"] {
+  cursor: pointer;
+}
+
+#navBarContainer {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin-top: 10px;
+}
+
+#mainViewContainer {
+  margin-left: 220px;
+  width: calc(100% - 220px);
+}
+
+.navItem {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  display: block;
+  letter-spacing: 1px;
+  position: relative;
+}
+
+.navItemLink {
+  color: #fff;
+}
+
+.starshipList {
+  margin: 30px 20px;
+}
+
+.starshipRow {
+  padding: 10px;
+  margin: 10px 0;
+  list-style: none;
+  font-size: 20px;
+  border-bottom: 1px solid #fff;
+}
+
+.starshipImage img {
+  width: 800px;
+  border: 3px solid #555;
+  margin-left: 20px;
+}
+
+.starshipLengthContainer {
+  margin: 30px 50px;
+  font-size: 30px;
+}
+
+.fanonShipSubmit {
+  margin: 30px;
+  font-size: 20px;
+}
+
+.fanonShipSubmitLink {
+  color: #000;
+  background-color: #727272;
+  padding: 5px 10px;
+  border-radius: 25px;
+  margin-left: 40px;
+}
+
+.button {
+  color: #000;
+  background-color: #727272;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 25px;
+  margin-left: 40px;
+}
+
+button {
+  color: #000;
+  background-color: #727272;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 25px;
+  margin-left: 40px;
+}
+
+input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
